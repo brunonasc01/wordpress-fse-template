@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Example</title>
+    <style>
+        /* Default styles */
+        body {
+            background-color: #f2f2f2;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        /* Media queries */
+        @media (max-width: 600px) {
+            /* Styles for screens with a maximum width of 600px */
+            body {
+                background-color: #fff;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 1200px) {
+            /* Styles for screens with a minimum width of 601px and a maximum width of 1200px */
+            body {
+                background-color: #e6e6e6;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+        }
+
+        @media (min-width: 1201px) {
+            /* Styles for screens with a minimum width of 1201px */
+            body {
+                background-color: #ccc;
+            }
+
+            h1 {
+                font-size: 48px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Example</h1>
+    <p>This is an example of an HTML file with embedded CSS that includes media queries based on width.</p>
+</body>
+</html>

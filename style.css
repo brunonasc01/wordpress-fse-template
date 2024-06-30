@@ -1,0 +1,40 @@
+/*
+Theme Name: My First Theme
+Author: Bruno Araujo
+Description: My first custom theme
+Version: 1.0.0
+*/
+
+@media (max-width: 768px) {
+    body {
+        background-color: blueviolet;
+    }
+    body {
+        --wp--custom--content-width--desktop: var(--wp--custom--content-width--tablet);
+        --wp--custom--wide-content-width--desktop: var(--wp--custom--wide-content-width--tablet);
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: greenyellow;
+    }
+    body {
+        --wp--custom--content-width--desktop: var(--wp--custom--content-width--mobile);
+        --wp--custom--wide-content-width--desktop: var(--wp--custom--wide-content-width--mobile);
+    }
+    main {
+        padding-right:var(--wp--preset--spacing--50);
+        padding-left:var(--wp--preset--spacing--50);
+    }
+}
+
+.wp-block-post-content {
+    background-color: chocolate;
+}
+
+.wp-block-query {
+    background-color: deeppink;
+}
+
+
