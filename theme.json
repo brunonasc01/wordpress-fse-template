@@ -156,5 +156,10 @@
 				}
 			]
 		}
-    }
+    },
+	"styles": {
+		"spacing": {
+			"blockGap": "var(--wp--preset--spacing--50)"
+		}
+	}
 }
